@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.container{
+    margin-top: 2rem;
+    background-color: #34c3e7;
+    height: auto;
+    width: 200px;
+    padding: 1rem;
+}
+
+.output{
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#output-text{
+    overflow: auto;
+    width: 100;
+    height: 70px;
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 0;
+    font-size: 54px;
+}
+
+.input{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 0.2rem;
+    column-gap: 0.2rem;
+}
+.input button{
+    height: 45px;
+}
+
+button{
+    border: none;
+}
+
+.function{
+    background-color: #d0962b;
+    color: #ffffff;
+}
+
+.operation{
+    background-color: rgb(18, 138, 18);
+    color: #ffff;
+}
